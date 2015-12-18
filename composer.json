@@ -11,8 +11,6 @@
     "php": ">=5.4"
   },
   "autoload": {
-    "autoload": {
-      "classmap": ["src/"]
-    }
+    "classmap": ["src/"]
   }
 }
