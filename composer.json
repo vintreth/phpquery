@@ -5,7 +5,8 @@
   "keywords": ["phpQuery", "lib"],
   "type": "library",
   "homepage": "https://github.com/vintreth/phpquery",
-  "license": "Mit",
+  "license": "MIT",
+  "minimum-stability": "dev"
   "require": {
     "php": ">=5.4"
   },
