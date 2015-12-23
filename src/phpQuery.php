@@ -470,15 +470,10 @@ abstract class phpQuery {
 		die('TODO loadDocument');
 	}
 	/**
-	 * Enter description here...
-	 *
-	 * @param unknown_type $html
-	 * @param unknown_type $domId
-	 * @return unknown New DOM ID
 	 * @todo support PHP tags in input
 	 * @todo support passing DOMDocument object from self::loadDocument
 	 */
-	protected static function createDocumentWrapper($html, $contentType = null, $documentID = null) {
+	public static function createDocumentWrapper($html, $contentType = null, $documentID = null) {
 		if (function_exists('domxml_open_mem'))
 			throw new Exception("Old PHP4 DOM XML extension detected. phpQuery won't work until this extension is enabled.");
 //		$id = $documentID

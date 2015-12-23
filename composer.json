@@ -1,6 +1,6 @@
 {
   "name": "vintreth/phpquery",
-  "version":"1.1",
+  "version":"1.1.1",
   "description": "phpQuery",
   "keywords": ["phpQuery", "lib"],
   "type": "library",
